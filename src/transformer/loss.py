@@ -4,6 +4,8 @@ import torch.nn.functional as F
 from utils import IGNORE_ID
 
 
+
+
 def cal_performance(pred, gold, smoothing=0.0):
     """Calculate cross entropy loss, apply label smoothing if needed.
     Args:
